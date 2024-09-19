@@ -1,5 +1,7 @@
 package com.krakedev;
-
+/**
+ * CLASE PARA PROBAR LAS INSTANCIAS DE TIPO AUTO
+ */
 public class TestAuto {
 
 	public static void main(String[] args) {
