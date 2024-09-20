@@ -4,8 +4,24 @@ package com.krakedev;
  * CLASE PARA DEFINIR CALCULOS BASICOS PARA UN RECTANGULO
  */
 public class Rectangulo {
-	public double altura;
-	public double base;
+	private double altura;
+	private double base;
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+	public double getBase() {
+		return base;
+	}
+
+	public void setBase(double base) {
+		this.base = base;
+	}
 
 	public double calcularArea() {
 		return base * altura;

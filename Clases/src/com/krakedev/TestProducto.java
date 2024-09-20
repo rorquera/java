@@ -16,41 +16,41 @@ public class TestProducto {
 
 		System.out.println("Producto A");
 
-		productoA.nombre = "Paracetamol";
-		productoA.descripcion = "Caja de Paracetamol";
-		productoA.precio = 2.5f;
-		productoA.stockAnual = 350;
+		productoA.setNombre("Paracetamol");
+		productoA.setDescripcion("Caja de Paracetamol");
+		productoA.setPrecio(2.5f);
+		productoA.setStockAnual(350);
 
-		System.out.println("Nombre: " + productoA.nombre);
-		System.out.println("Descripcion: " + productoA.descripcion);
-		System.out.println("Precio: " + productoA.precio);
-		System.out.println("Stock Anual: " + productoA.stockAnual);
+		System.out.println("Nombre: " + productoA.getNombre());
+		System.out.println("Descripcion: " + productoA.getDescripcion());
+		System.out.println("Precio: " + productoA.getPrecio());
+		System.out.println("Stock Anual: " + productoA.getStockAnual());
 
 		System.out.println("-------------------");
 		System.out.println("Producto B");
 
-		productoB.nombre = "Ibuprofeno";
-		productoB.descripcion = "Caja de Ibuprofeno";
-		productoB.precio = 3.5f;
-		productoB.stockAnual = 345;
-		
-		System.out.println("Nombre: " + productoB.nombre);
-		System.out.println("Descripcion: " + productoB.descripcion);
-		System.out.println("Precio: " + productoB.precio);
-		System.out.println("Stock Anual: " + productoB.stockAnual);
+		productoB.setNombre("Ibuprofeno");
+		productoB.setDescripcion("Caja de Ibuprofeno");
+		productoB.setPrecio(3.5f);
+		productoB.setStockAnual(345);
+
+		System.out.println("Nombre: " + productoB.getNombre());
+		System.out.println("Descripcion: " + productoB.getDescripcion());
+		System.out.println("Precio: " + productoB.getPrecio());
+		System.out.println("Stock Anual: " + productoB.getStockAnual());
 
 		System.out.println("-------------------");
 		System.out.println("Producto C");
 
-		productoC.nombre = "Agua Oxigenada";
-		productoC.descripcion = "Frasco de agua oxigenada de 250ml";
-		productoC.precio = 1.75f;
-		productoC.stockAnual = 450;
-		
-		System.out.println("Nombre: " + productoC.nombre);
-		System.out.println("Descripcion: " + productoC.descripcion);
-		System.out.println("Precio: " + productoC.precio);
-		System.out.println("Stock Anual: " + productoC.stockAnual);
+		productoC.setNombre("Agua Oxigenada");
+		productoC.setDescripcion("Frasco de agua oxigenada de 250ml");
+		productoC.setPrecio(1.75f);
+		productoC.setStockAnual(450);
+
+		System.out.println("Nombre: " + productoC.getNombre());
+		System.out.println("Descripcion: " + productoC.getDescripcion());
+		System.out.println("Precio: " + productoC.getPrecio());
+		System.out.println("Stock Anual: " + productoC.getStockAnual());
 	}
 
 }

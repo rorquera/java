@@ -10,8 +10,8 @@ public class TestRectangulo {
 		double area;
 		double perimetroRectangulo;
 
-		rectangulo.altura = 15.5;
-		rectangulo.base = 10;
+		rectangulo.setAltura(15.5);
+		rectangulo.setBase(10);
 		area = rectangulo.calcularArea();
 		perimetroRectangulo = rectangulo.calcularPerimetro();
 
