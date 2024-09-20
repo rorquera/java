@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Rectangulo;
 
 /**
  * CLASE PARA PROBAR LAS OPERACIONES DE LA FIGURA GEOMETRICA RECTANGULO

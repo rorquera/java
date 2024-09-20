@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Calculadora;
 
 /**
  * CLASE PARA PROBAR LAS INSTANCIAS DE TIPO CALCULADORA

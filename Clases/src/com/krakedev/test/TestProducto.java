@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Producto;
 
 /**
  * CLASE PARA PROBAR LAS INSTANCIAS DE TIPO PRODUCTO

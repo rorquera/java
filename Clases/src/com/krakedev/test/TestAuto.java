@@ -1,4 +1,7 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Auto;
+
 /**
  * CLASE PARA PROBAR LAS INSTANCIAS DE TIPO AUTO
  */
