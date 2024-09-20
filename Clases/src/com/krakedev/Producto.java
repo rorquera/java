@@ -7,4 +7,5 @@ public class Producto {
 	public String descripcion;
 	public float precio;
 	public int stockAnual;
+	
 }
