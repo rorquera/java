@@ -10,16 +10,12 @@ public class TestProducto {
 		Producto productoB;
 		Producto productoC;
 
-		productoA = new Producto();
-		productoB = new Producto();
-		productoC = new Producto();
+		productoA = new Producto("Paracetamol","Caja de Paracetamol",2.5f,350);
+		productoB = new Producto("Ibuprofeno","Caja de Ibuprofeno",3.5f,345);
+		productoC = new Producto("Agua Oxigenada","Frasco de agua oxigenada de 250ml",1.75f,450);
 
 		System.out.println("Producto A");
 
-		productoA.setNombre("Paracetamol");
-		productoA.setDescripcion("Caja de Paracetamol");
-		productoA.setPrecio(2.5f);
-		productoA.setStockAnual(350);
 
 		System.out.println("Nombre: " + productoA.getNombre());
 		System.out.println("Descripcion: " + productoA.getDescripcion());
@@ -29,10 +25,6 @@ public class TestProducto {
 		System.out.println("-------------------");
 		System.out.println("Producto B");
 
-		productoB.setNombre("Ibuprofeno");
-		productoB.setDescripcion("Caja de Ibuprofeno");
-		productoB.setPrecio(3.5f);
-		productoB.setStockAnual(345);
 
 		System.out.println("Nombre: " + productoB.getNombre());
 		System.out.println("Descripcion: " + productoB.getDescripcion());
@@ -42,10 +34,6 @@ public class TestProducto {
 		System.out.println("-------------------");
 		System.out.println("Producto C");
 
-		productoC.setNombre("Agua Oxigenada");
-		productoC.setDescripcion("Frasco de agua oxigenada de 250ml");
-		productoC.setPrecio(1.75f);
-		productoC.setStockAnual(450);
 
 		System.out.println("Nombre: " + productoC.getNombre());
 		System.out.println("Descripcion: " + productoC.getDescripcion());

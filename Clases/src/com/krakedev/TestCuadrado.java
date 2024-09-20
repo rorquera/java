@@ -6,15 +6,11 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado cuadrado1 = new Cuadrado();
-		Cuadrado cuadrado2 = new Cuadrado();
-		Cuadrado cuadrado3 = new Cuadrado();
+		Cuadrado cuadrado1 = new Cuadrado(4);
+		Cuadrado cuadrado2 = new Cuadrado(8);
+		Cuadrado cuadrado3 = new Cuadrado(15);
 		double area;
 		double perimetro;
-
-		cuadrado1.setLado(4);
-		cuadrado2.setLado(8);
-		cuadrado3.setLado(15);
 
 		area = cuadrado1.calcularArea();
 		perimetro = cuadrado1.calcularPerimetro();

@@ -9,6 +9,13 @@ public class Producto {
 	private float precio;
 	private int stockAnual;
 
+	public Producto(String nombre, String descripcion, float precio, int stockAnual) {
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.precio = precio;
+		this.stockAnual = stockAnual;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
